@@ -1,10 +1,10 @@
-let uAnimeSearchCore = {
+const uAnimeSearchCore = {
     version: "0.0.1",
     proxy: {
         host: "localhost",
         port: "12077"
     },
-    init: (jquery, fetch, proxy) => {
+    init(jquery, fetch, proxy) {
         if (proxy) {
             this.proxy = proxy
         }
