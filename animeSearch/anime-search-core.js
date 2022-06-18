@@ -1,4 +1,5 @@
 const uAnimeSearchCore = {
+    name: "uAnimeSearchCore",
     version: "0.0.1",
     proxy: {
         host: "localhost",
@@ -466,6 +467,6 @@ const uAnimeSearchCore = {
                 }
             },
         }
-        console.log("uCore 已初始化， 当前版本为:", this.version)
+        console.log(this.name ,"已初始化， 当前版本为:", this.version)
     }
 }
